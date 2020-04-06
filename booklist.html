@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Book List App | Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="title">
+                <span><h1><i class="fa fa-book"></i>My<span style="color: green;">Book</span>List</h1></span>
+            </div>
+            <!-- <div id="msg" class="alert"></div> -->
+            <form action="" class="formList">
+                <div class="input-container">
+                    <label for="title">Title</label><br>
+                    <input type="text" name="title" id="title">
+                </div>
+                <div class="input-container">
+                    <label for="author">Author</label><br>
+                    <input type="text" name="author" id="author">
+                </div>
+                <div class="input-container">
+                    <label for="isbn">ISBN#</label><br>
+                    <input type="text" name="isbn" id="isbn">
+                </div>
+                <div class="submit">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+            <div class="table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Title</th>
+                            <th>Author</th>
+                            <th>ISBN#</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody id="bookList">
+                        <!-- <tr>
+                            <td>red</td>
+                            <td>red</td>
+                            <td>red</td>
+                            <td><span class="fa fa-trash"></span></td>
+                        </tr> -->
+                    </tbody>
+
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="js/booklist.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+<form>
+	<input type='text' id="text">
+    <input type="submit" value="submit">
+</form>
+
+<script>
+
+	var inp = document.querySelector('#text');
+    var form = document.querySelector('form');
+    
+    form.addEventListener('submit', function(e){
+
+       e.preventDefault();
+       if(inp.value.length < 4 ){
+       		alert('please input something')
+       }
+       
+	})
+  
+</script>
+
+</body>
+</html>
+
